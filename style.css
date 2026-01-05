@@ -86,7 +86,8 @@ body{
 .error{
     text-align: left;
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
     display: none;
+
 }
