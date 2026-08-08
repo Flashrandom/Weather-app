@@ -8,14 +8,13 @@ body{
   background: #222;
 }
 .heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 40px;
 }
 
 #head {
-    color: green;
-    text-align: center;
+    color: #00feba;
+    font-size: 35px;
 }
 .card{
   width: 90%;
