@@ -9,6 +9,8 @@ body{
 }
 .heading #head {
     color: green;
+  text-align: center;
+  display: flex;
 }
 .card{
   width: 90%;
