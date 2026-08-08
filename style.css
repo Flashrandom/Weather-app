@@ -9,7 +9,49 @@ body{
 }
 .heading {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 70px;
+}
+
+.heading h1 {
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: -1.5px;
+}
+
+.heading h1 span {
+    color: #55d86a;
+}
+
+/* Small decorative line below heading */
+.heading-line {
+    width: 130px;
+    height: 3px;
+    margin: 18px auto 22px;
+    background: #55d86a;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Small dot in the middle */
+.heading-line::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #55d86a;
+    border-radius: 50%;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading p {
+    color: #b8b8b8;
+    font-size: 19px;
+    margin: 0;
+    letter-spacing: 0.3px;
 }
 
 #head {
